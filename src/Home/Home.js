@@ -6,7 +6,7 @@ class Home extends Component {
         return (
             <div>
                 <p className="App-intro">
-                    Hello, there! My name is Jenna Kovacs.
+                    Hello, there! Welcome to my website. 
                 </p>
             </div>
         );

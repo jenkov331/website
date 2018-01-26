@@ -1,26 +1,36 @@
 .Header-main {
     background-color: #222;
-    height: 200px;
-    padding: 20px;
+    height: 16em;
     color: white;
     text-align: left;
   }
 
-  .Header-logo {
+  /* .Header-logo {
     animation: App-logo-spin infinite 20s linear;
     height: 80px;
+  } */
+
+  .Header-logo {
+    height: 16em;
+    width: 22em;
+    padding: 8%;
   }
   
   .Header-title {
     font-size: 3em;
     font-family: Snell Roundhand, cursive; 
+    color: #66a3ff;
   }
 
   .Header-subtitle {
-    font-size: 1.1em;
+    font-size: 1.3em;
+    font-family: Georgia, serif;
+    width: 15em;
+    color: #ff9966;
+    padding: 2%;
   }
 
-  @keyframes App-logo-spin {
+  /* @keyframes App-logo-spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
-  }
+  } */
