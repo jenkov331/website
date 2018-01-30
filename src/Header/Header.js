@@ -28,7 +28,7 @@ const HeaderMain = () => (
                     <div className="Header-subtitle">
                         <p>University of Florida</p>
                         <p>B.S. Computer Engineering</p>
-                        <p>c/o Fall 2017</p> 
+                        <p>Class of Fall 2017</p> 
                     </div>
                 </td>
             </tr>

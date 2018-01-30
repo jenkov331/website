@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from '../Header/Header';
-import Home from '../Home/Home';
+import Home from '../Pages/Home/Home';
+import Diploma from '../Pages/Diploma/Diploma';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 
@@ -36,7 +37,6 @@ class App extends Component {
 }
 
 const Resume = () => <h3> Resume </h3>; 
-const Diploma = () => <h3> Diploma </h3>;
 const Project = () => <h3> Project </h3>;
 
 export default App;
