@@ -19,6 +19,7 @@ class Header extends Component {
 const HeaderMain = () => (
     <header className="Header-main">
         <table>
+            <tbody>
             <tr>
                 <td>
                 {/* <img src={logo} className="Header-logo" alt="logo" /> */}
@@ -32,6 +33,7 @@ const HeaderMain = () => (
                     </div>
                 </td>
             </tr>
+            </tbody>
         </table>
     </header>
 );
