@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from '../Images/logo.svg';
 import jenna from '../Images/jenna.jpg';
 import './Header.css';
 import {Nav, Navbar, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
@@ -22,7 +21,6 @@ const HeaderMain = () => (
             <tbody>
             <tr>
                 <td>
-                {/* <img src={logo} className="Header-logo" alt="logo" /> */}
                     <img src={jenna} className="Header-logo" alt="jenna" />
                 </td>
                 <td><h1 className="Header-title">Jenna Kovacs</h1>
@@ -55,8 +53,8 @@ const HeaderNavBar = () => (
                     <NavItem>Diploma</NavItem>
                 </LinkContainer>
                 <NavDropdown title="Projects" id="project-nav-dropdown">
-                    <LinkContainer to="/projects/project1">
-                        <MenuItem>Project1</MenuItem>
+                    <LinkContainer to="/projects/SeniorDesign">
+                        <MenuItem>Senior Design</MenuItem>
                     </LinkContainer>
                     <LinkContainer to="/projects/project2">
                         <MenuItem>Project2</MenuItem>

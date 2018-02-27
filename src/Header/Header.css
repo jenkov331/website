@@ -30,11 +30,6 @@
     padding: 2%;
   }
 
-  /* @keyframes App-logo-spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  } */
-
   .navbar-default .navbar-nav > li > a {
     color: #10aa18;
   }

@@ -1,0 +1,10 @@
+form {
+    display: inline-block;
+    text-align: left;
+    padding: 1%;
+}
+
+.help {
+    color: #10aa18;
+    display: inline;
+}
