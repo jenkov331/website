@@ -28,12 +28,12 @@ class Contact extends Component {
 
     handleSubmit(event) {
         alert('Thanks ' + this.state.contactName + ', your message to Jenna has been sent!');
-        event.preventDefault();
+        // event.preventDefault();
     }
 
     render() {
         return (
-            <form>
+            <form action="" method="post" name="contactForm">   
                 <label>
                     Your Name <br /> <input name="contactName" size="50" type="text" value={this.state.contactName} onChange={this.handleChange} />
                 </label>
@@ -43,14 +43,14 @@ class Contact extends Component {
                 </label>
                 <br />
                 <label>
-                    Subject <div className="help">(max. 100 chars)</div> <br /> <input name="messageSubject" size="101" type="text" maxLength="100" value={this.state.messageSubject} onChange={this.handleChange} />
+                    Subject <p className="help">(max. 100 chars)</p> <br /> <input name="messageSubject" size="101" type="text" maxLength="100" value={this.state.messageSubject} onChange={this.handleChange} />
                 </label>
                 <br />
                 <label>
                     Message <br /> <textarea name="messageContent" rows="10" cols="100" value={this.state.messageContent} onChange={this.handleChange} />
                 </label>
                 <br />
-                <Button bsStyle="success" onClick={this.handleSubmit}>Send</Button>
+                <Button bsStyle="success" type="submit" onClick={this.handleSubmit}>Send</Button>
             </form>
         );
     }

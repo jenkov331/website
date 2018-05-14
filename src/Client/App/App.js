@@ -21,8 +21,8 @@ class App extends Component {
               <Route path="/about" component={Home} />
               <Route path="/resume" component={Resume} />
               <Route path="/diploma" component={Diploma} />
-              <Route path="/projects/SeniorDesign" component={SeniorDesign} />
-              <Route path="/projects/project2" component={Projects} />
+              <Route path="/projects/seniordesign" component={SeniorDesign} />
+              <Route path="/projects/internships" component={Internships} />
               <Route path="/projects/project3" component={Projects} />
               <Route path="/projects/github" component={GitHub} />
               <Route path="/linkedin" component={LinkedIn} />
@@ -36,8 +36,9 @@ class App extends Component {
 }
 
 const Resume = () => <h3> Resume </h3>; 
+const Internships = () => <h3> Internships </h3>;
 const Projects = () => <h3> Project </h3>;
 const LinkedIn = () => <a href="http://www.linkedin.com/in/jenna-kovacs-0331"> View my LinkedIn Profile</a>;
-const GitHub = () => <a href="https://github.com/jenkov331">View my GitHub Account</a>;
+const GitHub = () => <a href="https://github.com/jenkov331">View my GitHub Profile</a>;
 
 export default App;

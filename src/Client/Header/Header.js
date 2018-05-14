@@ -53,11 +53,11 @@ const HeaderNavBar = () => (
                     <NavItem>Diploma</NavItem>
                 </LinkContainer>
                 <NavDropdown title="Projects" id="project-nav-dropdown">
-                    <LinkContainer to="/projects/SeniorDesign">
+                    <LinkContainer to="/projects/seniordesign">
                         <MenuItem>Senior Design</MenuItem>
                     </LinkContainer>
-                    <LinkContainer to="/projects/project2">
-                        <MenuItem>Project2</MenuItem>
+                    <LinkContainer to="/projects/internships">
+                        <MenuItem>Internships</MenuItem>
                     </LinkContainer>
                     <LinkContainer to="/projects/project3">
                         <MenuItem>Project3</MenuItem>
