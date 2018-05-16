@@ -50,7 +50,7 @@ app.post('/contact', function(req, res) {
     //     } 
     //     else {
     //         console.log('Email sent: ' + info.response);
-    //         res.render('index'); COMMENT OUT
+    //         res.json({yo: info.response});
     //     }
     // });
 });
