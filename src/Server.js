@@ -4,7 +4,7 @@ var express = require('express'),
     bodyParser = require("body-parser");
 
 var app = express(),
-    port = process.env.PORT || 3001;
+    port = 3001;
 
 app.use(helmet());
 // app.use(express.static('Client'));
